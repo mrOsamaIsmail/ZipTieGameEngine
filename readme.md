@@ -1,6 +1,6 @@
 ![alt text](https://github.com/mrOsamaIsmail/ZipTieGameEngine/blob/master/ZipTie-LOGO.png)
 
-# ZimTieEngine
+# ZipTieEngine
 
 ## Welcome to my engine :D
 ## Am just making this engine to learn graphics and maybe build basic 2D games and then maybe 3D
