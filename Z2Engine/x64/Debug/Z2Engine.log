@@ -1,2 +1,175 @@
-﻿  Z2Engine.cpp
-  Z2Engine.vcxproj -> E:\[ Open Source ]\[ my projects ]\Z2Engine\x64\Debug\Z2Engine.exe
+﻿  EBO.cpp
+  ShaderClass.cpp
+  VAO.cpp
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\VAO.cpp(11,63): warning C4244: 'argument': conversion from 'GLsizeiptr' to 'GLsizei', possible loss of data
+  VBO.cpp
+  stbImageLayer.cpp
+  Z2Engine.cpp
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(700,1): error C2084: function 'int stbi__cpuid3(void)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(699): message : see previous definition of 'stbi__cpuid3'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(722,1): error C2084: function 'int stbi__sse2_available(void)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(721): message : see previous definition of 'stbi__sse2_available'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(723,17): error C2065: 'stbi__cpuid3': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(723,31): error C2440: 'initializing': cannot convert from 'int (__cdecl *)(void)' to 'int'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(723,15): message : There is no context in which this conversion is possible
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(784,3): error C2371: 'stbi__context': redefinition; different basic types
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(784): message : see declaration of 'stbi__context'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(791,1): error C2084: function 'void stbi__start_mem(stbi__context *,const stbi_uc *,int)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(790): message : see previous definition of 'stbi__start_mem'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(801,1): error C2084: function 'void stbi__start_callbacks(stbi__context *,stbi_io_callbacks *,void *)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(800): message : see previous definition of 'stbi__start_callbacks'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(815,1): error C2084: function 'int stbi__stdio_read(void *,char *,int)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(814): message : see previous definition of 'stbi__stdio_read'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(820,1): error C2084: function 'void stbi__stdio_skip(void *,int)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(819): message : see previous definition of 'stbi__stdio_skip'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(830,1): error C2084: function 'int stbi__stdio_eof(void *)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(829): message : see previous definition of 'stbi__stdio_eof'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(834,26): error C2374: 'stbi__stdio_callbacks': redefinition; multiple initialization
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(834): message : see declaration of 'stbi__stdio_callbacks'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(842,1): error C2084: function 'void stbi__start_file(stbi__context *,FILE *)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(841): message : see previous definition of 'stbi__start_file'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(843,5): error C2065: 'stbi__start_callbacks': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(851,1): error C2084: function 'void stbi__rewind(stbi__context *)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(850): message : see previous definition of 'stbi__rewind'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(861,5): error C2365: 'STBI_ORDER_RGB': redefinition; previous definition was 'enumerator'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(861): message : see declaration of 'STBI_ORDER_RGB'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(862,5): error C2365: 'STBI_ORDER_BGR': redefinition; previous definition was 'enumerator'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(862): message : see declaration of 'STBI_ORDER_BGR'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(870,3): error C2371: 'stbi__result_info': redefinition; different basic types
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(870): message : see declaration of 'stbi__result_info'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(933,13): error C2086: 'const char *stbi__g_failure_reason': redefinition
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(933): message : see declaration of 'stbi__g_failure_reason'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(936,1): error C2084: function 'const char *stbi_failure_reason(void)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(935): message : see previous definition of 'stbi_failure_reason'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(941,12): warning C4003: not enough arguments for function-like macro invocation 'stbi__err'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(942,1): error C2084: function 'int stbi__err(const char *)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(941): message : see previous definition of 'stbi__err'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(949,1): error C2084: function 'void *stbi__malloc(size_t)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(948): message : see previous definition of 'stbi__malloc'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(966,1): error C2084: function 'int stbi__addsizes_valid(int,int)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(965): message : see previous definition of 'stbi__addsizes_valid'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(978,1): error C2084: function 'int stbi__mul2sizes_valid(int,int)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(977): message : see previous definition of 'stbi__mul2sizes_valid'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(988,1): error C2084: function 'int stbi__mad2sizes_valid(int,int,int)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(987): message : see previous definition of 'stbi__mad2sizes_valid'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(989,12): error C2065: 'stbi__mul2sizes_valid': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(989,43): error C2065: 'stbi__addsizes_valid': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(989,75): warning C4551: function call missing argument list
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(989,75): error C2568: '&&': unable to resolve function overload
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(989,75): message : could be 'int stbi__addsizes_valid(int,int)'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(995,1): error C2084: function 'int stbi__mad3sizes_valid(int,int,int,int)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(994): message : see previous definition of 'stbi__mad3sizes_valid'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(996,12): error C2065: 'stbi__mul2sizes_valid': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(996,43): error C2065: 'stbi__mul2sizes_valid': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(996,75): warning C4551: function call missing argument list
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(996,75): error C2568: '&&': unable to resolve function overload
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(996,75): message : could be 'int stbi__mul2sizes_valid(int,int)'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(997,9): error C2065: 'stbi__addsizes_valid': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1003,1): error C2084: function 'int stbi__mad4sizes_valid(int,int,int,int,int)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1002): message : see previous definition of 'stbi__mad4sizes_valid'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1004,12): error C2065: 'stbi__mul2sizes_valid': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1004,43): error C2065: 'stbi__mul2sizes_valid': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1004,75): warning C4551: function call missing argument list
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1004,75): error C2568: '&&': unable to resolve function overload
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1004,75): message : could be 'int stbi__mul2sizes_valid(int,int)'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1005,9): error C2065: 'stbi__mul2sizes_valid': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1005,48): error C2065: 'stbi__addsizes_valid': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1012,1): error C2084: function 'void *stbi__malloc_mad2(int,int,int)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1011): message : see previous definition of 'stbi__malloc_mad2'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1013,10): error C2065: 'stbi__mad2sizes_valid': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1013,42): warning C4551: function call missing argument list
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1014,12): error C2065: 'stbi__malloc': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1019,1): error C2084: function 'void *stbi__malloc_mad3(int,int,int,int)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1018): message : see previous definition of 'stbi__malloc_mad3'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1020,10): error C2065: 'stbi__mad3sizes_valid': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1020,45): warning C4551: function call missing argument list
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1021,12): error C2065: 'stbi__malloc': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1026,1): error C2084: function 'void *stbi__malloc_mad4(int,int,int,int,int)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1025): message : see previous definition of 'stbi__malloc_mad4'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1027,10): error C2065: 'stbi__mad4sizes_valid': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1027,48): warning C4551: function call missing argument list
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1028,12): error C2065: 'stbi__malloc': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1048,1): error C2084: function 'void stbi_image_free(void *)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1047): message : see previous definition of 'stbi_image_free'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1060,12): error C2374: 'stbi__vertically_flip_on_load_global': redefinition; multiple initialization
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1060): message : see declaration of 'stbi__vertically_flip_on_load_global'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1063,1): error C2084: function 'void stbi_set_flip_vertically_on_load(int)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1062): message : see previous definition of 'stbi_set_flip_vertically_on_load'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1070,30): error C2086: 'int stbi__vertically_flip_on_load_local': redefinition
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1070): message : see declaration of 'stbi__vertically_flip_on_load_local'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1070,67): error C2086: 'int stbi__vertically_flip_on_load_set': redefinition
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1070): message : see declaration of 'stbi__vertically_flip_on_load_set'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1073,1): error C2084: function 'void stbi_set_flip_vertically_on_load_thread(int)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1072): message : see previous definition of 'stbi_set_flip_vertically_on_load_thread'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1084,1): error C2084: function 'void *stbi__load_main(stbi__context *,int *,int *,int *,int,stbi__result_info *,int)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1083): message : see previous definition of 'stbi__load_main'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1127,12): error C2065: 'stbi__err': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1131,1): error C2084: function 'stbi_uc *stbi__convert_16_to_8(stbi__uint16 *,int,int,int)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1130): message : see previous definition of 'stbi__convert_16_to_8'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1136,25): error C2065: 'stbi__malloc': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1137,33): error C2065: 'stbi__err': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1147,1): error C2084: function 'stbi__uint16 *stbi__convert_8_to_16(stbi_uc *,int,int,int)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1146): message : see previous definition of 'stbi__convert_8_to_16'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1152,31): error C2065: 'stbi__malloc': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1153,49): error C2065: 'stbi__err': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1163,1): error C2084: function 'void stbi__vertical_flip(void *,int,int,int)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1162): message : see previous definition of 'stbi__vertical_flip'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1188,1): error C2084: function 'void stbi__vertical_flip_slices(void *,int,int,int,int)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1187): message : see previous definition of 'stbi__vertical_flip_slices'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1194,9): error C2065: 'stbi__vertical_flip': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1201,1): error C2084: function 'unsigned char *stbi__load_and_postprocess_8bit(stbi__context *,int *,int *,int *,int)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1200): message : see previous definition of 'stbi__load_and_postprocess_8bit'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1203,20): error C2065: 'stbi__load_main': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1212,18): error C2065: 'stbi__convert_16_to_8': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1212,104): error C2568: '=': unable to resolve function overload
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1212,104): message : could be 'stbi_uc *stbi__convert_16_to_8(stbi__uint16 *,int,int,int)'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1220,9): error C2065: 'stbi__vertical_flip': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1227,1): error C2084: function 'stbi__uint16 *stbi__load_and_postprocess_16bit(stbi__context *,int *,int *,int *,int)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1226): message : see previous definition of 'stbi__load_and_postprocess_16bit'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1229,20): error C2065: 'stbi__load_main': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1238,18): error C2065: 'stbi__convert_8_to_16': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1238,99): error C2568: '=': unable to resolve function overload
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1238,99): message : could be 'stbi__uint16 *stbi__convert_8_to_16(stbi_uc *,int,int,int)'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1247,9): error C2065: 'stbi__vertical_flip': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1255,1): error C2084: function 'void stbi__float_postprocess(float *,int *,int *,int *,int)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1254): message : see previous definition of 'stbi__float_postprocess'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1258,9): error C2065: 'stbi__vertical_flip': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1278,1): error C2084: function 'FILE *stbi__fopen(const char *,const char *)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1277): message : see previous definition of 'stbi__fopen'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1307,1): error C2084: function 'stbi_uc *stbi_load(const char *,int *,int *,int *,int)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1306): message : see previous definition of 'stbi_load'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1308,15): error C2065: 'stbi__fopen': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1308,42): error C2440: 'initializing': cannot convert from 'FILE *(__cdecl *)(const char *,const char *)' to 'FILE *'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1308,13): message : There is no context in which this conversion is possible
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1310,20): error C2065: 'stbi__err': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1317,1): error C2084: function 'stbi_uc *stbi_load_from_file(FILE *,int *,int *,int *,int)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1316): message : see previous definition of 'stbi_load_from_file'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1320,5): error C2065: 'stbi__start_file': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1321,14): error C2065: 'stbi__load_and_postprocess_8bit': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1321,71): error C2568: '=': unable to resolve function overload
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1321,71): message : could be 'unsigned char *stbi__load_and_postprocess_8bit(stbi__context *,int *,int *,int *,int)'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1330,1): error C2084: function 'stbi_us *stbi_load_from_file_16(FILE *,int *,int *,int *,int)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1329): message : see previous definition of 'stbi_load_from_file_16'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1333,5): error C2065: 'stbi__start_file': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1334,14): error C2065: 'stbi__load_and_postprocess_16bit': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1334,72): error C2568: '=': unable to resolve function overload
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1334,72): message : could be 'stbi__uint16 *stbi__load_and_postprocess_16bit(stbi__context *,int *,int *,int *,int)'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1343,1): error C2084: function 'stbi_us *stbi_load_16(const char *,int *,int *,int *,int)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1342): message : see previous definition of 'stbi_load_16'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1344,15): error C2065: 'stbi__fopen': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1344,42): error C2440: 'initializing': cannot convert from 'FILE *(__cdecl *)(const char *,const char *)' to 'FILE *'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1344,13): message : There is no context in which this conversion is possible
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1346,30): error C2065: 'stbi__err': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1347,14): error C2065: 'stbi_load_from_file_16': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1347,61): error C2568: '=': unable to resolve function overload
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1347,61): message : could be 'stbi_us *stbi_load_from_file_16(FILE *,int *,int *,int *,int)'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1356,1): error C2084: function 'stbi_us *stbi_load_16_from_memory(const stbi_uc *,int,int *,int *,int *,int)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1355): message : see previous definition of 'stbi_load_16_from_memory'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1358,5): error C2065: 'stbi__start_mem': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1359,12): error C2065: 'stbi__load_and_postprocess_16bit': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1363,1): error C2084: function 'stbi_us *stbi_load_16_from_callbacks(const stbi_io_callbacks *,void *,int *,int *,int *,int)' already has a body
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1362): message : see previous definition of 'stbi_load_16_from_callbacks'
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1365,5): error C2065: 'stbi__start_callbacks': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1366,12): error C2065: 'stbi__load_and_postprocess_16bit': undeclared identifier
+E:\[ Open Source ]\[ my projects ]\Z2Engine\Z2Engine\core\stb_image.h(1366,89): fatal error C1003: error count exceeds 100; stopping compilation
+  Generating Code...

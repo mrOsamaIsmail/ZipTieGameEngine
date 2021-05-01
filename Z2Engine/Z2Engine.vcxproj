@@ -90,12 +90,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="core\EBO.cpp" />
+    <ClCompile Include="core\ShaderClass.cpp" />
+    <ClCompile Include="core\VAO.cpp" />
+    <ClCompile Include="core\VBO.cpp" />
     <ClCompile Include="glad.c" />
+    <ClCompile Include="core\stbImageLayer.cpp" />
     <ClCompile Include="Z2Engine.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="core\EBO.h" />
     <ClInclude Include="core\Gl_Layer.h" />
+    <ClInclude Include="core\ShaderClass.h" />
+    <ClInclude Include="core\stbImageLayer.h" />
+    <ClInclude Include="core\stb_image.h" />
+    <ClInclude Include="core\VAO.h" />
+    <ClInclude Include="core\VBO.h" />
     <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\fragment.frag" />
+    <None Include="resources\vertex.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="engine icon.ico" />
+    <Image Include="icon.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

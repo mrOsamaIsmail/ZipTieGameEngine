@@ -2,6 +2,9 @@
 #ifndef _OPENGLCORE
 #define _OPENGLCORE
 #include "../pch.h"
+
+#define STB_IMAGE_IMPLEMENTATION
+#include "core/stb_image.h"
 class GlLayer 
 {
 	//void framebuffer_size_callback(GLFWwindow* window, int width, int height);
@@ -16,12 +19,14 @@ public:
 			GlLayer::terminate();
 			return nullptr;
 		}
+		setWindowIcon(wnd, WNDOW_ICON);
 		glfwMakeContextCurrent(wnd);
 		if (initglad() != 1) 
 		{ 
 			return nullptr;
 		};
 		//glfwSetFramebufferSizeCallback(wnd, framebuffer_size_callback);
+		glViewport(0, 0, WNDOW_WIDTH, WNDOW_HEIGHT);
 		return wnd;
 	}
 	static inline void iniitializeOpenGL()
@@ -47,6 +52,19 @@ public:
 			return 1;
 		}
 	}
+	
+	static inline void setWindowIcon(GLFWwindow* window,const char* filename) 
+	{
+		GLFWimage image;
+		int width, height, nrChannels;
+		unsigned char* data = stbi_load("container.jpg", &width, &height, &nrChannels, 0);
+		image.width = width;
+		image.height = height;
+		image.pixels = data;
+		glfwSetWindowIcon(window,1 ,&image);
+		
+	}
+	
 	void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 	{
 		glViewport(0, 0, width, height);
