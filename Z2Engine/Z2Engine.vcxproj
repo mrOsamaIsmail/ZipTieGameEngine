@@ -58,7 +58,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>$(SolutionDir)\Dependencies\includes\GLFW;$(SolutionDir)\Dependencies\includes\glad;$(SolutionDir)\Dependencies\includes\entt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Dependencies\includes\GLFW;$(SolutionDir)\Dependencies\includes\glad;$(SolutionDir)\Dependencies\includes\entt;$(SolutionDir)\Dependencies\Z2Engine\;$(SolutionDir)\Dependencies\includes\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -78,7 +78,7 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>$(SolutionDir)\Dependencies\includes\GLFW;$(SolutionDir)\Dependencies\includes\glad;$(SolutionDir)\Dependencies\includes\entt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Dependencies\includes\GLFW;$(SolutionDir)\Dependencies\includes\glad;$(SolutionDir)\Dependencies\includes\entt;$(SolutionDir)\Dependencies\Z2Engine\;$(SolutionDir)\Dependencies\includes\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -91,9 +91,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="core\EBO.cpp" />
+    <ClCompile Include="core\primativeShapes.h" />
     <ClCompile Include="core\ShaderClass.cpp" />
     <ClCompile Include="core\VAO.cpp" />
     <ClCompile Include="core\VBO.cpp" />
+    <ClCompile Include="Engine\GameObject.cpp" />
     <ClCompile Include="glad.c" />
     <ClCompile Include="core\stbImageLayer.cpp" />
     <ClCompile Include="Z2Engine.cpp" />
@@ -101,11 +103,13 @@
   <ItemGroup>
     <ClInclude Include="core\EBO.h" />
     <ClInclude Include="core\Gl_Layer.h" />
+    <ClInclude Include="core\Renderer.h" />
     <ClInclude Include="core\ShaderClass.h" />
     <ClInclude Include="core\stbImageLayer.h" />
     <ClInclude Include="core\stb_image.h" />
     <ClInclude Include="core\VAO.h" />
     <ClInclude Include="core\VBO.h" />
+    <ClInclude Include="Engine\GameObject.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
